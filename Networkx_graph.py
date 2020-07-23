@@ -200,7 +200,7 @@ color_map=['black'
 #g  add_node('Petrus Peregrinus')
 
 plt.title('Graph showing the influences of physicists on other physicists')
-nx.draw(g, node_color=color_map,  node_size=100,k=0.9, with_labels=True)
+nx.draw(g, node_color=color_map,  node_size=100,k=0.9, with_labels=False, arrow_size=20, arrowstyle='fancy')
 
 #plt.legend()
 plt.show()
